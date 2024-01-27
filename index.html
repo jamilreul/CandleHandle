@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>CandleHandle</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="menu header__menu">
+          <button class="menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="menu__list header__menu-list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Про нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Каталог</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Команда</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Отзывы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Курсы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="phone" href="tel:+79313169102">+7 931 316 91 02</a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="top">
+        <div class="container top__inner">
+          <div class="top__content">
+            <h3 class="top__title">Уют и Гармония с ароматными свечами!</h3>
+            <p class="top__text">
+              Погрузитесь в мир комфорта с нашими ароматными свечами. Идеально
+              подходят для создания уникальной атмосферы
+            </p>
+            <button class="top__buy">Купить</button>
+          </div>
+          <picture class="top__img">
+            <source srcset="images/top-s.png" media="(max-width:360px)" />
+            <source srcset="images/top-m.png" media="(max-width:480px)" />
+            <img
+              class="top__img-l"
+              src="images/top-l.png"
+              alt=""
+              width="1069px"
+            />
+          </picture>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about__inner">
+          <div class="about__content">
+            <h2 class="about__title title">Про нас</h2>
+            <p class="about__text">
+              Мы начали наше путешествие с создания свечей в небольшой
+              мастерской. С тех пор мы выросли, но наша преданность ремеслу
+              осталась неизменной. Мы верим в силу ручного труда и стремимся к
+              тому, чтобы каждая наша свеча была не просто предметом интерьера,
+              но и отражением нашего мастерства и страсти к творчеству.
+            </p>
+            <p class="about__text">
+              Наши свечи изготавливаются вручную с использованием только лучших
+              материалов. Мы используем натуральный воск, безопасные для
+              окружающей среды фитили и ароматы без фталатов.
+            </p>
+          </div>
+          <ul class="about__list section--decor">
+            <li class="about__item">
+              <img
+                class="about__item-img about__item-img--1"
+                src="images/about-1.png"
+                alt=""
+              />
+              <p class="about__item-text">Наслаждайся моментом</p>
+            </li>
+            <li class="about__item">
+              <img
+                class="about__item-img about__item-img--2"
+                src="images/about-2.png"
+                alt=""
+              />
+              <p class="about__item-text">Создать уютную атмосферу</p>
+            </li>
+            <li class="about__item">
+              <img
+                class="about__item-img about__item-img--3"
+                src="images/about-3.png"
+                alt=""
+              />
+              <p class="about__item-text">Сделано с любовью</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="products section">
+        <div class="container section__inner">
+          <div class="products__descr section__descr">
+            <h2 class="products__title title">Наши товары</h2>
+            <p class="products__text section__text">
+              Откройте для себя нашу коллекцию свечей ручной работы. Каждая
+              свеча создана с любовью и мастерством, чтобы принести в ваш дом
+              уют и тепло. Наши свечи - идеальный подарок для любого случая.
+            </p>
+          </div>
+          <div class="products__content section__content-descr section--decor">
+            <div class="products__item">
+              <img
+                src="images/product-1.png"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">“Лавандовый Сон”</h4>
+              <p class="products__item-text">
+                Запах: Лаванда<br />Для чего: Для расслабления и улучшения сна
+              </p>
+              <button class="button">Купить</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/product-2.png"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">20$</p>
+              <h4 class="products__item-title">“Морская Бриз”</h4>
+              <p class="products__item-text">
+                Запах: Морской бриз<br />Для чего: Для создания атмосферы
+                отпуска дома
+              </p>
+              <button class="button">Купить</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/product-3.png"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">“Цитрусовый Рай”</h4>
+              <p class="products__item-text">
+                Запах: Цитрус<br />Для чего: Для поднятия настроения и энергии
+              </p>
+              <button class="button">Купить</button>
+            </div>
+            <div class="products__item">
+              <img
+                src="images/product-4.png"
+                alt=""
+                class="products__item-img"
+              />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">“Шоколадное Наслаждение”</h4>
+              <p class="products__item-text">
+                Запах: Шоколад<br />Для чего: Для создания уютной и комфортной
+                атмосферы
+              </p>
+              <button class="button">Купить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps section">
+        <div class="container section__inner">
+          <div class="steps__descr section__descr">
+            <h2 class="steps__title title">Этапы создания свечей</h2>
+            <p class="steps__text section__text">
+              Создание свечей ручной работы - это искусство, которое требует
+              терпения и мастерства.<br />Вот основные этапы процесса:
+            </p>
+          </div>
+          <ol class="steps__list section__content-descr section--decor">
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Выбор материалов: Первый этап - это выбор качественного воска и
+                фитиля. Это важно, так как они являются основой для создания
+                свечи.
+              </p>
+              <img class="steps__item-img" src="images/s1.png" alt="" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Подготовка формы: Форма должна быть тщательно очищена и высушена
+                перед началом работы, чтобы избежать появления пузырьков
+                воздуха.
+              </p>
+              <img class="steps__item-img" src="images/s2.png" alt="" />
+            </li>
+            <li class="steps__item steps__item--even">
+              <img class="steps__item-img" src="images/s3.png" alt="" />
+              <p class="steps__item-text">
+                Расплавление воска: Воск тщательно расплавляется в водяной бане
+                до жидкого состояния, чтобы обеспечить равномерное распределение
+                тепла.
+              </p>
+            </li>
+            <li class="steps__item steps__item--even">
+              <img class="steps__item-img" src="images/s4.png" alt="" />
+              <p class="steps__item-text">
+                Подготовка фитиля: Фитиль обрабатывается воском и фиксируется в
+                форме, чтобы обеспечить стабильное горение свечи.
+              </p>
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Заливка воска: Расплавленный воск аккуратно заливается в форму,
+                чтобы избежать образования пузырьков воздуха.
+              </p>
+              <img class="steps__item-img" src="images/s5.png" alt="" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Охлаждение свечи: Свеча оставляется для затвердевания в течение
+                нескольких часов, чтобы обеспечить равномерное охлаждение.
+              </p>
+              <img class="steps__item-img" src="images/s6.png" alt="" />
+            </li>
+            <li class="steps__item steps__item--even">
+              <img class="steps__item-img" src="images/s7.png" alt="" />
+              <p class="steps__item-text">
+                Вынимание свечи: После полного охлаждения свеча аккуратно
+                извлекается из формы, чтобы избежать повреждений.
+              </p>
+            </li>
+            <li class="steps__item steps__item--even">
+              <img class="steps__item-img" src="images/s8.png" alt="" />
+              <p class="steps__item-text">
+                Обработка поверхности: Поверхность свечи обрабатывается для
+                гладкости и блеска, что придает ей привлекательный внешний вид.
+              </p>
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Украшение свечи: Свеча может быть украшена в соответствии с
+                дизайном, что делает каждую свечу уникальной.
+              </p>
+              <img class="steps__item-img" src="images/s9.png" alt="" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Упаковка свечи: Готовая свеча упаковывается для продажи или
+                хранения, чтобы обеспечить ее безопасность и сохранность.
+              </p>
+              <img class="steps__item-img" src="images/s10.png" alt="" />
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="courses section">
+        <div class="container section__inner">
+          <div class="section__descr">
+            <h2 class="title">Наши курсы</h2>
+            <p class="section__text">
+              Наши курсы по созданию свечей ручной работы предназначены для
+              всех, кто хочет научиться создавать красивые и уникальные свечи.
+              Независимо от того, являетесь ли вы новичком или опытным мастером,
+              наши курсы помогут вам улучшить свои навыки и раскрыть творческий
+              потенциал.
+            </p>
+          </div>
+          <div
+            class="products__content courses__content section__content-descr section--decor"
+          >
+            <div class="products__item courses__item">
+              <div class="courses__item-img">
+                <img
+                  src="images/course-1.png"
+                  alt=""
+                  class="products__item-img courses__img"
+                />
+                <p class="courses__title">Свечи из соевого воска</p>
+                <p class="courses__time">Обучение <span>- 30 часов</span></p>
+                <p class="courses__price">Цена - 30$</p>
+              </div>
+              <h4 class="products__item-title">Свечи из соевого воска</h4>
+              <p class="products__item-text">
+                Изучите создание экологически чистых свечей из соевого воска,
+                подчеркивающих уют.
+              </p>
+              <button class="button">Купить курс</button>
+            </div>
+            <div class="products__item courses__item">
+              <div class="courses__item-img">
+                <img
+                  src="images/course-2.png"
+                  alt=""
+                  class="products__item-img courses__img"
+                />
+                <p class="courses__title">Ароматерапия и свечи</p>
+                <p class="courses__time">Обучение <span>- 30 часов</span></p>
+                <p class="courses__price">Цена - 25$</p>
+              </div>
+              <h4 class="products__item-title">Ароматерапия и свечи</h4>
+              <p class="products__item-text">
+                Создайте ароматические свечи для релаксации и лечения,
+                добавляющие гармонию.
+              </p>
+              <button class="button">Купить курс</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team section">
+        <div class="container section__inner">
+          <div class="section__descr">
+            <h2 class="team__title title">Наши преподаватели</h2>
+            <p class="section__text">
+              Наши преподаватели - опытные мастера, которые знают все тонкости и
+              секреты этого увлекательного занятия. Они поделятся с вами своими
+              знаниями, навыками и творческим вдохновением.
+            </p>
+          </div>
+
+          <div class="team__content section__content-descr">
+            <div class="team__item">
+              <img class="team__img" src="images/team-1.png" alt="" />
+              <div class="team__item-box">
+                <p class="team__item-name">Руководитель Дарья</p>
+                <p class="team__item-descr">
+                  Управление компанией, контроль процессов.
+                </p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__img" src="images/team-2.png" alt="" />
+              <div class="team__item-box">
+                <p class="team__item-name">Преподаватель Кристина</p>
+                <p class="team__item-descr">
+                  Обучение, разработка учебных программ.
+                </p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__img" src="images/team-3.png" alt="" />
+              <div class="team__item-box">
+                <p class="team__item-name">Преподаватель Мария</p>
+                <p class="team__item-descr">
+                  Проведение занятий, оценка успеваемости.
+                </p>
+              </div>
+            </div>
+            <div class="team__item">
+              <img class="team__img" src="images/team-4.png" alt="" />
+              <div class="team__item-box">
+                <p class="team__item-name">Маркетолог Елена</p>
+                <p class="team__item-descr">
+                  Изучение рынка, разработка маркетинговых стратегий.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback section">
+        <div class="container feedback__inner section__inner">
+          <div class="feedback__descr section__descr">
+            <h2 class="title">Отзывы от клиентов</h2>
+            <p class="section__text">
+              Здесь вы найдете отзывы довольных клиентов о наших свечах ручной
+              работы. Ваши отзывы вдохновляют нас на создание новых шедевров! Мы
+              ценим ваше мнение и стремимся улучшать нашу продукцию, чтобы
+              превзойти ваши ожидания. Ваши истории и отзывы помогают нам
+              становиться лучше.
+            </p>
+          </div>
+          <div class="feedback__content section--decor">
+            <div class="feedback__slider">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.png"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a class="feedback__item-sociallink" href="#">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Джамиль Реул</p>
+                      <p class="feedback__item-text">
+                        “Я недавно приобрел свечу ручной работы на этом сайте, и
+                        я абсолютно восхищен! Качество превзошло все мои
+                        ожидания, а аромат просто невероятный. Это был идеальный
+                        подарок для моей подруги, которая обожает уютные вечера.
+                        Она была в восторге! Очень рекомендую всем!”
+                      </p>
+                      <button class="button feedback__item-btn">
+                        Купить этот товар
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.png"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a class="feedback__item-sociallink" href="#">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Алексей Кравцов</p>
+                      <p class="feedback__item-text">
+                        “Я недавно приобрел свечу ручной работы на этом сайте, и
+                        я абсолютно восхищен! Качество превзошло все мои
+                        ожидания, а аромат просто невероятный. Это был идеальный
+                        подарок для моей подруги, которая обожает уютные вечера.
+                        Она была в восторге! Очень рекомендую всем!”
+                      </p>
+                      <button class="button feedback__item-btn">
+                        Купить этот товар
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.png"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a class="feedback__item-sociallink" href="#">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Михаил Альперин</p>
+                      <p class="feedback__item-text">
+                        “Я недавно приобрел свечу ручной работы на этом сайте, и
+                        я абсолютно восхищен! Качество превзошло все мои
+                        ожидания, а аромат просто невероятный. Это был идеальный
+                        подарок для моей подруги, которая обожает уютные вечера.
+                        Она была в восторге! Очень рекомендую всем!”
+                      </p>
+                      <button class="button feedback__item-btn">
+                        Купить этот товар
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback__item">
+                    <div class="feedback__item-video">
+                      <img
+                        class="feedback__item-img"
+                        src="images/slide.png"
+                        alt=""
+                      />
+                      <button class="feedback__item-videobtn">
+                        <img src="images/btn.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="feedback__item-content">
+                      <a class="feedback__item-sociallink" href="#">
+                        <img src="images/instagram.svg" alt="" />
+                      </a>
+                      <p class="feedback__item-name">Андрей Столяров</p>
+                      <p class="feedback__item-text">
+                        “Я недавно приобрел свечу ручной работы на этом сайте, и
+                        я абсолютно восхищен! Качество превзошло все мои
+                        ожидания, а аромат просто невероятный. Это был идеальный
+                        подарок для моей подруги, которая обожает уютные вечера.
+                        Она была в восторге! Очень рекомендую всем!”
+                      </p>
+                      <button class="button feedback__item-btn">
+                        Купить этот товар
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="certificates section">
+        <div class="container section__inner">
+          <div class="certificates__descr section__descr">
+            <h2 class="certificates__title title">Сертификаты качества</h2>
+            <p class="section__text">
+              Наши свечи производятся в соответствии с самыми высокими
+              стандартами качества, и мы можем подтвердить это следующими
+              сертификатами.
+            </p>
+          </div>
+          <div class="certificates__content section--decor">
+            <div class="certificates__slider">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="images/cert-1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/cert-2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/cert-3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/cert-4.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="questions section">
+        <div class="container section__inner">
+          <div class="section__descr">
+            <h2 class="title">Частые вопросы</h2>
+          </div>
+          <div class="questions__content">
+            <div class="accordeon">
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Какие ароматы свечей доступны для покупки?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <ol>
+                      <li>Лаванда</li>
+                      <li>Ваниль</li>
+                      <li>Цитрус</li>
+                      <li>Мята</li>
+                      <li>Кедр</li>
+                      <li>Роза</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Из каких материалов изготовлены ваши свечи?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <p>
+                      Наши свечи изготовлены из 100% натурального соевого воска.
+                      Он является более экологичным и долговечным материалом по
+                      сравнению с традиционным парафином.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Как долго горят ваши свечи?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <p>
+                      Время горения свечи зависит от ее размера. Наши маленькие
+                      свечи горят около 20 часов, средние - около 50 часов, а
+                      большие - до 80 часов.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Есть ли у вас свечи, созданные специально для ароматерапии?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <p>
+                      Да, у нас есть специальная линия свечей для ароматерапии.
+                      Они содержат эфирные масла, которые помогают расслабиться
+                      и улучшить настроение.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Какие размеры свечей доступны?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <p>
+                      У нас есть три размера свечей: маленькие (200 г), средние
+                      (450 г) и большие (800 г).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Можно ли заказать индивидуальный дизайн свечи?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <p>
+                      К сожалению, на данный момент мы не предлагаем услугу
+                      индивидуального дизайна. Однако мы постоянно обновляем наш
+                      ассортимент и стремимся удовлетворить потребности наших
+                      клиентов.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <button class="accordeon__title">
+                  Какие три самых популярных аромата свечей среди ваших
+                  клиентов?
+                </button>
+                <div class="accordeon__text">
+                  <div class="accordeon__scroll">
+                    <ul>
+                      <li>Лаванда</li>
+                      <li>Ваниль</li>
+                      <li>Цитрус</li>
+                    </ul>
+                    <p>
+                      Это три самых популярных аромата свечей среди наших
+                      клиентов. Пожалуйста, обратите внимание, что популярность
+                      ароматов может варьироваться в зависимости от сезона и
+                      личных предпочтений клиентов.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="promo">
+        <div class="container promo__inner">
+          <p class="promo__text">Купите больше, экономьте больше</p>
+          <a class="promo__link" href="#">В каталог</a>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container contacts__inner">
+          <form class="form" action="">
+            <p class="form__title">Подпишись на наши акции</p>
+            <input class="form__input" type="text" placeholder="Имя" />
+            <input class="form__input" type="email" placeholder="E-mail" />
+            <button class="form__btn">Подписаться</button>
+          </form>
+          <img class="contacts__img" src="images/contacts.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="menu footer__menu">
+          <ul class="menu__list footer__menu-list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Про нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Каталог</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Команда</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Отзывы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Курсы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <a class="footer__phone" href="tel:+79313169102">+7 931 316 91 02</a>
+          <a class="email" href="mailto:jamil96@mail.ru">jamil96@mail.ru</a>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img class="footer__social-img" src="images/vk.svg" alt="vk"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-img"
+                  src="images/instagram.svg"
+                  alt="insta"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-img"
+                  src="images/whatsapp.svg"
+                  alt="whatsapp"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-img"
+                  src="images/telegram.svg"
+                  alt="telega"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
